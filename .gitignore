@@ -84,3 +84,6 @@ yarn-error.log
 publics
 # Vercel
 .vercel
+
+# django
+/__pycache__/
