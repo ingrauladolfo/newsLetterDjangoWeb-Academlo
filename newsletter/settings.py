@@ -25,7 +25,7 @@ SECRET_KEY = '+t*-ks%h^rho+5nyi@@ai$wv6!0%gpesn^469%104(u(5$_6a+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['localhost','.vercel.app']
 
 
 # Application definition
@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'newsletter.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
 }
 
 
